@@ -150,17 +150,17 @@ var HeaderCustom = function (_React$Component) {
 
     _this.handleServiceCustomize = function (data, cmpId) {
       var listService = [];
-      data.find(function (el) {
-        if (!el || el.onlyCompany) {
-          return;
-        }
-        var data = el.onlyCompany.find(function (e) {
-          return e.companyId === cmpId && e.status;
-        });
-        if (data) {
-          listService.push(el);
-        }
-      });
+      // data.find(function (el) {
+      //   if (!el || el.onlyCompany) {
+      //     return;
+      //   }
+      //   var data = el.onlyCompany.find(function (e) {
+      //     return e.companyId === cmpId && e.status;
+      //   });
+      //   if (data) {
+      //     listService.push(el);
+      //   }
+      // });
       return listService;
     };
 
