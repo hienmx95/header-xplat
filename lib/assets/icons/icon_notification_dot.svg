@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16.6" height="18.498" viewBox="0 0 16.6 18.498">
+  <g id="Icons_Notification" data-name="Icons / Notification" transform="translate(-1298.4 -151)">
+    <path id="Icons_Bell" data-name="Icons / Bell" d="M7.112,19a1.78,1.78,0,0,1-1.777-1.778H8.889A1.78,1.78,0,0,1,7.112,19Zm6.222-2.665H.889a.889.889,0,1,1,0-1.778h.888V10.111A5.341,5.341,0,0,1,5.333,5.081v-.3A1.779,1.779,0,0,1,7.5,3.042,5,5,0,0,0,12.1,10c.113,0,.229,0,.343-.012,0,.023,0,.046,0,.069v4.5h.889a.889.889,0,0,1,0,1.778Z" transform="translate(1298.9 150)" fill="#fff" stroke="rgba(0,0,0,0)" stroke-width="1"/>
+    <g id="Dot" transform="translate(1308 152)" fill="#d32f2f" stroke="#fff" stroke-linecap="square" stroke-miterlimit="10" stroke-width="1">
+      <circle cx="3" cy="3" r="3" stroke="none"/>
+      <circle cx="3" cy="3" r="3.5" fill="none"/>
+    </g>
+  </g>
+</svg>

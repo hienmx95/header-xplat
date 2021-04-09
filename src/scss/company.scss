@@ -1,0 +1,387 @@
+.fwork-switch-company {
+  height: 100%; 
+  .fwork-login-form {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+  .fwork-logo-company {
+    width: 742px;
+    height: 100%;
+    padding: 0px;
+    position: relative;
+    padding: 0px !important;
+      .fwork-logo {
+        position: absolute;
+        padding: 80px 0px 39px 80px;
+        display: flex;
+        z-index: 20;
+      }
+      .fwork-logo-left {
+        width: 600px;
+        height: 100%;
+        background-image: linear-gradient(40deg, #e4e6fa, #fff);
+      }
+  }
+  .fwork-login {
+      padding: 10px 56px;
+      background-color: #ffffff;
+      height: 100%;
+      // height: 85%;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      /* height: 400px; */
+  }
+  .fwork-login header {
+    position: absolute;
+    right: 105px;
+    top: 10px;
+  }
+.fwork-company-checked {
+  height: 92px;
+  border-radius: 3px;
+  border: solid 1px #dbdff0;
+  padding: 0 0 0 10px;
+  margin: 18px 1px !important;
+  cursor: pointer;
+  .fwork-name-company {
+    font-size: 14px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 22px;
+    letter-spacing: normal;
+    text-align: left;
+    color: #152b75;
+    margin: 0;
+    max-width: 260px;
+    word-wrap: break-word;
+    display: block;
+  }
+  .fwork-icon-checked {
+    // position: absolute;
+    right: 0;
+  }
+}
+.fwork-company-checked:hover {
+  height: 92px;
+  border-radius: 3px;
+  border: solid 1px #F77A0C;
+}
+.fwork-company-checked:active {
+  height: 92px;
+  border-radius: 3px;
+  border: solid 1px #F77A0C;
+  background: #FFF3E0;
+}
+.choose-default {
+  height: 92px;
+  border-radius: 3px;
+  border: solid 1px #F77A0C;
+  background: #FFF3E0;
+}
+.fwork-company-button {
+  margin-top: 40px;
+  border-radius: 4px;
+  background-color: #ee5b18;
+  border-color: #ee5b18;
+  height: 40px;
+}
+.fwork-company-button:hover {
+  margin-top: 40px;
+  border-radius: 4px;
+  background-color: #ee5b18;
+  border-color: #ee5b18;
+}
+.fwork-company-button:focus {
+  color: #fff;
+  border-color: #ee5b18 ;
+  background-color: #ee5b18 ;
+}
+.fwork-company-title {
+  font-weight: 600;
+  font-size: 28px;
+  margin-bottom: 0;
+  color: #172b4d 
+}
+.fwork-sub-title {
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.29;
+  letter-spacing: normal;
+  text-align: left;
+  color: #67748a;
+}
+.fwork-form-register-company {
+  .ant-form-item label {
+    position: relative;
+    font-size: 14px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.29;
+    letter-spacing: normal;
+    text-align: left;
+    color: #172b4d;
+  }
+  .ant-form-item-label {
+    line-height: normal;
+  }
+  .fwork-comapny-name {
+    margin-bottom: 5px;
+    .ant-form-item-required:before {
+      position: absolute;
+      font-family: "SanFranciscoDisplay";
+      font-size: 16px;
+      top: 4px;
+      padding: 0px 0px 0px 99px;
+    }
+    .ant-form-item-label>label:after {
+      content: "";
+      position: relative;
+      margin: 0 20px 0px 2px;
+    }
+  }
+  .fwork-comapny-size {
+    margin-bottom: 5px;
+    .ant-form-item-required:before {
+      position: absolute;
+      font-family: "SanFranciscoDisplay";
+      font-size: 16px;
+      top: 4px;
+      padding: 0px 0px 0px 88px;
+    }
+    .ant-form-item-label>label:after {
+      content: "";
+      position: relative;
+      margin: 0 20px 0px 2px;
+    }
+  }
+  .fwork-contact {
+    margin-bottom: 5px;
+    .ant-form-item-required:before {
+      position: absolute;
+      font-family: "SanFranciscoDisplay";
+      font-size: 16px;
+      top: 4px;
+      padding: 0px 0px 0px 49px;
+    }
+    .ant-form-item-label>label:after {
+      content: "";
+      position: relative;
+      margin: 0 20px 0px 2px;
+    }
+  }
+  .ant-btn-primary {
+    width: 100%;
+    height: 40px;
+    border-radius: 4px;
+    border-color: #ee5b18;
+    background-color: #ee5b18;
+  }
+
+  .ant-select-selection {
+    border-color: #d9d9d9 !important;
+  }
+}
+}
+.fwork-modal-company {
+.fwork-login{
+  width: 384px;
+  padding: 10px 0px;
+}
+.fwork-modal-checkbox {
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.67;
+    letter-spacing: normal;
+    text-align: left;
+    color: #172b4d;
+    padding: 0px 0px 20px 0px;
+    border-bottom: solid 1px #dbdff0;
+}
+.fwork-company-button {
+  margin-top: 0px;
+  position: absolute;
+  right: 0;
+}
+.fwork-company-button:hover {
+  margin-top: 0px;
+}
+
+}
+.fwork-modal {
+.ant-modal-content {
+  .ant-modal-close-x {
+    width: 48px;
+    height: 48px;
+    font-size: 14px;
+    line-height: 48px;
+    padding-right: 20px;
+    i {
+      color: #67748a;
+    }
+  }
+  .ant-modal-header {
+    height: 48px;
+    padding: 10px 32px;
+    border-radius: 4px;
+    background-color: #f5f6f8;
+    .ant-modal-title {
+      font-size: 20px;
+      font-weight: 600;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.4;
+      letter-spacing: normal;
+      text-align: left;
+      color: #172b4d;
+    }
+    
+  }
+  .ant-modal-body {
+    padding: 6px 32px 24px 32px;
+  }
+}
+.fwork-company-checked {
+  height: 92px; 
+  .fwork-dots {
+    width: 8px;
+    height: 8px;
+    background-color: #43a047;
+    border-radius: 50%;
+    margin-right: 8px;
+  }
+  .fwork-default-company {
+    font-size: 12px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.73;
+    letter-spacing: normal;
+    text-align: left;
+    color: #43a047;
+    // text-transform: uppercase;
+  }
+}
+.fwork-company-checked:hover {
+  height: 92px; 
+}
+.fwork-create-company {
+  font-size: 14px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.57;
+  letter-spacing: normal;
+  text-align: center;
+  color: #1976d2;
+  display: flex;
+  align-items: center;
+}
+.fwork-create-disable {
+  font-size: 14px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.57;
+  letter-spacing: normal;
+  text-align: center;
+  color: #c1c1c1;
+  display: flex;
+  align-items: center;
+}
+// a:hover {
+//   text-decoration: none;
+// }
+}
+
+.ant-btn-primary:disabled {
+  background-color: #f5f5f5 !important;
+  border-color: #d9d9d9 !important;
+}
+.ant-btn[disabled]:hover {
+  background-color: #f5f5f5 !important;
+  border-color: #d9d9d9 !important;
+  color: #d9d9d9 !important;
+}
+
+@media only screen and (max-width: 1348px) and (min-width: 1024px) {
+.fwork-switch-company {
+  .fwork-logo-company {
+    width: 390px;
+    .fwork-logo {
+      padding: 80px 0px 19px 10px;
+    }
+    .fwork-logo-left {
+      width: 100%;
+      height: 100%;
+      background-image: linear-gradient(40deg, #e4e6fa, #fff);
+    }
+    
+  }
+  .fwork-login-form {
+    width: calc(100% - 390px);
+    height: 100%;
+    background: #fff;
+    .fwork-login {
+      padding: 10px 9px;
+      header {
+        // right: 0px;
+        // width: 330px;
+        right: 100px;
+        // width: 355px;
+      }
+    }
+  }
+  .fwork-company-checked {
+    .fwork-name-company {
+      max-width: 235px;
+    }
+    .fwork-icon-checked {
+      right: 10px;
+    }
+  } 
+} 
+}
+@media only screen and (max-width: 1023px) and (min-width: 768px) {
+.fwork-switch-company {
+  .fwork-title-logo {
+    width: 234px;
+  }
+  .fwork-logo-company {
+    width: 390px;
+    .fwork-logo {
+      padding: 80px 0px 19px 10px;
+    }
+    .fwork-logo-left {
+      width: 100%;
+      height: 100%;
+      background-image: linear-gradient(40deg, #e4e6fa, #fff);
+    }
+  }
+  .fwork-login-form {
+    width: calc(100% - 390px);
+    height: 100%;
+    background: #fff;
+    .fwork-login {
+      padding: 10px 9px;
+      header {
+        right: 10px;
+      }
+    }
+  }
+  .fwork-company-checked {
+    .fwork-name-company {
+      max-width: 235px;
+    }
+    .fwork-icon-checked {
+      right: 10px;
+    }
+  } 
+} 
+}
